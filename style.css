@@ -1,0 +1,142 @@
+@font-face {
+    /*  
+        Font: UAF Memory
+        Author: Dmytro Rastvortsev (https://rastvor.com.ua/)
+        License: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)
+    */
+    font-family: 'UAFMemory';
+    src: url('./fonts/UAFMemory-CompactBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.blur-effect {
+    filter: blur(3px);
+    transition: 1s ease;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    position: relative;
+    background: black;
+    display: flex;
+
+    align-items: center;
+    min-height: 100vh;
+
+    margin: 0;
+}
+
+#labels {
+    position: absolute;
+    z-index: 2;
+    align-items: center;
+
+    top: 0;
+    left: 0;
+}
+
+p {
+    font-family: 'UAFMemory', sans-serif;
+    color: aliceblue;
+
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 0;
+    margin-right: 0;
+
+    min-width: 60px;
+}
+
+canvas {
+    position: absolute;
+    z-index: 1;
+    border: solid 1px white;
+    background-image: url('./backgrounds/dark-grass.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#notification {
+    border-style: solid;
+    border-color: darkgoldenrod;
+    background-color: rgb(26, 22, 18);
+    border-radius: 50px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+    width: 600px;
+    height: 400px;
+
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.score {
+    display: none;
+    margin: 0;
+    font-size: 1.3rem;
+    color: darkgoldenrod;
+}
+
+#button-label {
+    font-family: 'UAFMemory', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(20, 30, 30);
+    border-color: rgb(50, 60, 60);
+    background-color: darkgoldenrod;
+    border-radius: 20px;
+
+    width: 375px;
+    height: 200px;
+
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+#button-label:hover {
+    transform: scale(1.1);
+}
+
+#button-label:active {
+    transform: scale(1);
+}
+
+footer {
+    width: 100%;
+    min-height: 100px;
+
+    z-index: 3;
+    align-self: flex-end;
+
+    background-color: rgb(26, 22, 18);
+    border: solid 1px darkgoldenrod;
+    display: flex;
+    /*flex*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>p {
+    color: darkgoldenrod;
+    margin: 0;
+    padding: 5px;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
