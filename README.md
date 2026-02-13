@@ -1,4 +1,4 @@
-Long awaited JS game is here, take a look!
+Long awaited JS game is in releases, take a look!
 
 The content of this repository is a comprehensive overview on my knowledge of Web-related programming languages
 
