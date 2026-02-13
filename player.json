@@ -1,0 +1,48 @@
+{
+    "powerupTypeList": [
+        "beer",
+        "shield",
+        "potion",
+        "lightning",
+        "pentagram",
+        "ice"
+    ],
+    "powerupIconList": [
+        "./icons/beer mug.png",
+        "./icons/shield.png",
+        "./icons/potion.png",
+        "./icons/diamond.png",
+        "./icons/pentagram.png",
+        "./icons/ice.png"
+    ],
+    "Powerup": {
+        "width": 30,
+        "height": 30,
+        "radius": 15
+    },
+    "Projectile": {
+        "radius": 10
+    },
+    "Player": {
+        "width": 40,
+        "height": 40,
+        "imageSource": "./icons/wizard.png",
+        "bulletSpeed": 15,
+        "fireBulletImageSource": "./icons/fires.png",
+        "lightningBulletImageSource": "./icons/thunder.png",
+        "pentagramBulletImageSource": "./icons/lightning.png"
+    },
+    "ShootingInvader": {
+        "width": 50,
+        "height": 50,
+        "imageSource": "./icons/catapult.png",
+        "bulletSpeed": 10,
+        "bulletImageSource": "./icons/asteroid.png"
+    },
+    "ChasingInvader": {
+        "width": 50,
+        "height": 50,
+        "imageSource": "./icons/executioner.png",
+        "speed": 1
+    }
+}
