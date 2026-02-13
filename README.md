@@ -1,4 +1,4 @@
-JS game coming soon...
+Long awaited JS game is here, take a look!
 
 The content of this repository is a comprehensive overview on my knowledge of Web-related programming languages
 
